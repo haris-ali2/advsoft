@@ -21,7 +21,7 @@ def test():
         return jsonify({'error': 'Failed to decode image'}), 400
     
     # Save the received image for debugging
-    cv2.imwrite('received_image.jpg', image)
+    # cv2.imwrite('received_image.jpg', image)
 
     bd = cv2.barcode.BarcodeDetector()
     retval, _, _ = bd.detectAndDecode(image)
