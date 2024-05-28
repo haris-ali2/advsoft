@@ -2,3 +2,4 @@ Flask==2.2.2
 numpy==1.24.1
 opencv-contrib-python==4.7.0.68
 gunicorn==21.2.0
+Werkzeug==2.2.2
